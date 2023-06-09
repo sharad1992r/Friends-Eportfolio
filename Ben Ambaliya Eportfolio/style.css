@@ -206,6 +206,7 @@ nav {
 }
 .about-me__links {
   animation: fade-up 650ms 600ms backwards;
+  margin-bottom: 32px;
 }
 @keyframes fade-up {
   0% {
@@ -285,6 +286,11 @@ textarea {
   margin-bottom: 16px;
 }
 
+input,
+textarea:focus {
+  outline-color: #5d3eff;
+}
+
 textarea {
   resize: none;
 }
@@ -296,6 +302,11 @@ textarea {
   max-width: 120px;
   color: whitesmoke;
   padding: 8px;
+  cursor: pointer;
+}
+
+.form__btn:hover {
+  background-color: #5d3eff;
 }
 
 /*FOOTER*/
